@@ -1,0 +1,48 @@
+.game {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 1px 4px green;
+    padding: 15px;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    border: 1px solid #000;
+}
+
+.grid button {
+    background-image:  linear-gradient(to right, lightgreen , pink);
+    color: mediumblue;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid #000
+}
+
+.footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer button {
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px;
+    width: 130px;
+    background-color: paleturquoise;
+}
+
+.footer span {
+    flex: 1;
+    text-align: center;
+    color: mediumblue;
+    margin: auto 0;
+}

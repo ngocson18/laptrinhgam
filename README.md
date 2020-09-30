@@ -1,1 +1,4 @@
-# laptrinhgam
+# laptrinhgame
+# Puzzle Game
+
+# How to use
